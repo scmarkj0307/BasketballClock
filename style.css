@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+}
+
+h5 {
+	margin: 0;
+	padding: 0 0 20pz;
+	font-family: Copperplate Gothic Light;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	
+}
+
+h1{
+	color: white;
+}
+body {
+	background-color: black;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.container {
+	width: 25rem;
+	padding: 1rem;
+	background: rgba(255, 255, 255, 0.11);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	margin-left: 325px;
+	margin-top; -100px;
+	backdrop-filter: blur(5.4px);
+	-webkit-backdrop-filter: blur(5.4px);
+	
+}
+
+.scoreboard {
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+h2 {
+	font-size: 2rem;
+	color: white;
+}
+
+.score {
+	background: rgba(255, 255, 255, 0.11);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5.4px);
+	-webkit-backdrop-filter: blur(5.4px);
+	font-size: 6rem;
+	font-family: "Black Ops One", cursive;
+	color: red;
+	width: 100%;
+	margin: 1rem 0rem;
+}
+
+.add-scores {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 1rem;
+}
+button {
+	padding: 0.3rem;
+	background: none;
+	border: none;
+	border-radius: 0.5rem;
+	font-size: 1rem;
+	letter-spacing: 0.2rem;
+	cursor: pointer;
+	color: white;
+}
+
+.scores {
+	background: rgba(255, 255, 255, 0.11);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5.4px);
+	-webkit-backdrop-filter: blur(5.4px);
+	margin: 0.2rem;
+}
+
+#new-game-btn {
+	background: rgba(255, 255, 255, 0.11);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5.4px);
+	-webkit-backdrop-filter: blur(5.4px);
+}
+
+.highlight {
+	-webkit-box-shadow: 0px 0px 17px 5px rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 17px 5px rgba(255, 255, 255, 1);
+} 
+
+.teams {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid brown;
+    width: 50vw;
+    margin: 1rem auto 1rem;
+    padding: 1rem;
+	+95
+}
+
+.active{
+    border: 1px solid green;
+}
+
+
+
+
+.screen {
+    border: 1px solid yellow;
+    width: 80vw;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+	margin-top: -1px;
+	color: yellow;
+	
+}
+
+.timer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.total-countdown-timer{
+    font-size: 5vw;
+}
+
+.period-container{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.score{
+    display: flex;
+}
+
+.home-board, .guest-board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw;
+}
+
+.home-score-container, .guest-score-container{
+    font-size: 3vw;
+    display: flex;
+	 justify-content: center;
+}
+
+.controls{
+    display: flex;
+    flex-direction: row;
+    width: 75vw;
+    justify-content: space-around;
+}
+
+
+
